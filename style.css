@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+
+}
+
+body {
+  font-size: 18px;
+  max-width: 1440px;
+}
+
+header {
+  background-color: hsl(193, 100%, 96%);
+  padding: 50px 90px;
+  background-image: url(./images/bg-hero-desktop.svg);
+  /* margin-bottom: 40px; */
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+header .logo button {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 50px;
+  color: hsl(192, 100%, 9%);
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
+}
+
+.mockup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mockup .left h1 {
+  color: hsl(192, 100%, 9%);
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.mockup .left p {
+  color: hsl(192, 100%, 9%);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.mockup .right img {
+  width: 100%;
+  padding-left: 4rem;
+}
+
+.mockup button {
+  background-color: hsl(322, 100%, 66%);
+  padding: 10px 60px;
+  border: none;
+  border-radius: 20px;
+  color: hsl(193, 100%, 96%);
+  cursor: pointer;
+}
+
+.grow_together {
+  margin-top: 7rem;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
+  margin-inline: 80px;
+  margin-bottom: 30px;
+  padding: 3rem 2rem 3rem 6rem;
+  border-radius: 10px;
+  gap: 180px;
+}
+
+.split h2 {
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 15px;
+}
+
+.split p {
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5;
+}
+
+.split img {
+  width: 100%;
+}
+
+.your_users {
+  margin-bottom: 7rem;
+}
+
+.ready {
+  width: 600px;
+  height: 150px;
+  margin: auto;
+  box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ready h2 {
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ready button {
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
+  padding: 12px 70px;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+
