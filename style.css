@@ -307,4 +307,12 @@ footer .copyright {
   .flowing_conversation {
     flex-direction: column;
   }
+
+  footer {
+    padding: 20px;
+    text-align: left;
+  }
+
+  footer .ready {
+  }
 }
