@@ -15,19 +15,16 @@ body {
 header {
   background-color: hsl(193, 100%, 96%);
   padding: 50px 90px;
-  /* background-image: url(./images/bg-hero-desktop.svg); */
+  background-image: url(./images/bg-hero-desktop.svg);
 }
 
 header .logo {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 70px;
 }
-/* 
-header .logo img {
-  width: 100%;
-} */
 
 header .logo button {
   background-color: #ffffff;
@@ -41,6 +38,7 @@ header .logo button {
 
 .mockup {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -82,6 +80,7 @@ header .logo button {
 
 .split {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
