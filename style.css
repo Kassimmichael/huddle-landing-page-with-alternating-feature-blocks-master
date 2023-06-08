@@ -311,6 +311,19 @@ footer .copyright {
     flex-direction: column;
   }
 
+  footer .ready {
+    width: 450px;
+    left: 20px;
+  }
+
+  footer h2 {
+    font-size: 20px;
+  }
+
+  footer .ready button {
+    margin-left: 40px;
+  }
+
 
 }
 
