@@ -262,7 +262,7 @@ footer .copyright {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
 
 
   header {
@@ -296,9 +296,6 @@ footer .copyright {
     margin-bottom: 50px;
   }
 
-
-
-
   .split {
     flex-direction: column-reverse;
     padding: 50px 35px;
@@ -316,7 +313,6 @@ footer .copyright {
   }
 
   footer .ready {
-    width: 450px;
     left: 20px;
   }
 
@@ -334,6 +330,7 @@ footer .copyright {
   }
 
   footer .logo img {
+    margin-top: 3rem;
     width: 50%
   }
 
