@@ -9,7 +9,7 @@
 
 body {
   font-size: 18px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 header {
@@ -149,6 +149,10 @@ footer .ready button:hover {
 footer .logo {
   margin-top: 70px;
   margin-bottom: 20px;
+}
+
+footer .logo img {
+  width: 100%;
 }
 
 footer .footer_2 {
@@ -383,6 +387,25 @@ footer .copyright {
     text-align: left;
   }
 
-  footer .ready {
+  footer .logo img {
+    width: 50%
+  }
+
+  .footer_2 {
+    flex-direction: column;
+  }
+
+  .footer_2 .navbar {
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 7rem;
+  }
+
+  .footer_2 .navbar .nav-2 {
+    margin-right: 7rem;
+  }
+
+  .footer_2 .navbar ul li {
+    padding-block: 10px;
   }
 }
