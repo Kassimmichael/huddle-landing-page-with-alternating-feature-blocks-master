@@ -328,6 +328,32 @@ footer .copyright {
     margin-left: 40px;
   }
 
+  footer {
+    padding: 20px;
+    text-align: left;
+  }
+
+  footer .logo img {
+    width: 50%
+  }
+
+  .footer_2 {
+    flex-direction: column;
+  }
+
+  .footer_2 .navbar {
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 7rem;
+  }
+
+  .footer_2 .navbar .nav-2 {
+    margin-right: 7rem;
+  }
+
+  .footer_2 .navbar ul li {
+    padding-block: 10px;
+  }
 
 }
 
